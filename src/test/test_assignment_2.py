@@ -1,8 +1,13 @@
 import numpy as np
+
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from src.main.assignment_2 import (
     neville_interpolation, newton_forward_coefficients, newton_forward_interpolation,
     create_hermite_table, cubic_spline_setup, solve_cubic_spline
 )
+
 
 def test_assignment_2():
     x_vals_neville = np.array([3.6, 3.8, 3.9])
