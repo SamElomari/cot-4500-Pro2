@@ -36,3 +36,8 @@ python src/test/test_assignment_2.py
 ```
 
 This command will execute the test script, which in turn calls each interpolation function with predefined inputs and displays the results.
+
+## Outputs
+![image](https://github.com/user-attachments/assets/ff79068c-29b1-4a0c-be79-4ba23ef609bb)
+
+
