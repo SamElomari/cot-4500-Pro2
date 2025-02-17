@@ -1,5 +1,5 @@
 import numpy as np
-from A2 import (
+from src.main.assignment_2 import (
     neville_interpolation, newton_forward_coefficients, newton_forward_interpolation,
     create_hermite_table, cubic_spline_setup, solve_cubic_spline
 )
