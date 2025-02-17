@@ -27,3 +27,12 @@ To set up the project locally, follow these steps:
    ```bash
    pip install -r requirements.txt
 
+## Usage
+
+After installation, you can run the test suite to validate the implementations:
+
+```bash
+python src/test/test_assignment_2.py
+```
+
+This command will execute the test script, which in turn calls each interpolation function with predefined inputs and displays the results.
